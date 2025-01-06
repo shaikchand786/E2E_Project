@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-03T16:54:09 IST" name="Default suite" finished-at="2025-01-03T16:54:21 IST" duration-ms="11538">
+    <groups>
+    </groups>
+    <test started-at="2025-01-03T16:54:09 IST" name="Default test" finished-at="2025-01-03T16:54:21 IST" duration-ms="11538">
+      <class name="Saucedemo_Tests.PlaceOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Saucedemo_Tests.PlaceOrderTest@dbf57b3]" started-at="2025-01-03T16:54:09 IST" name="launchApp" finished-at="2025-01-03T16:54:17 IST" duration-ms="7844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="E2E_Application()[pri:0, instance:Saucedemo_Tests.PlaceOrderTest@dbf57b3]" started-at="2025-01-03T16:54:17 IST" name="E2E_Application" finished-at="2025-01-03T16:54:20 IST" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2E_Application -->
+        <test-method is-config="true" signature="tearDownApp()[pri:0, instance:Saucedemo_Tests.PlaceOrderTest@dbf57b3]" started-at="2025-01-03T16:54:20 IST" name="tearDownApp" finished-at="2025-01-03T16:54:21 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownApp -->
+      </class> <!-- Saucedemo_Tests.PlaceOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
