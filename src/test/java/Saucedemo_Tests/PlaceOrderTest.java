@@ -1,5 +1,6 @@
 package Saucedemo_Tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import SaucedemoPages.CartPage;
@@ -21,7 +22,9 @@ public class PlaceOrderTest extends BaseTest{
 		CheckOutInfoPage infoPage = cartPage.cartPageDetails();
 		CheckOutViewPage viewPage = infoPage.checkoutInfoDetails();
 		ConfirmPage cnfPage = viewPage.checkoutPageDetails();
-		cnfPage.confirmationMsg();
+		String finalMsg = cnfPage.confirmationMsg();
+		Assert.assertEquals(finalMsg, "Thank you for your order!!");
+		
 		
 	}
 }
