@@ -23,7 +23,7 @@ public class ConfirmPage extends AbstractComp {
 	WebElement BackHome;
 	
 	
-	public void confirmationMsg() 
+	public String confirmationMsg() 
 	{
 	//Checkout Page
 	WaitForElementToAppear(confMsg);
@@ -31,6 +31,7 @@ public class ConfirmPage extends AbstractComp {
 	System.out.println(FinalConfMsg);
 	
 	BackHome.click();
+	return FinalConfMsg;
 		
 	}
 
