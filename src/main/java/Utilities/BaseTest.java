@@ -65,6 +65,7 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDownApp()
 	{
+		driver.manage().deleteAllCookies();
 		driver.close();
 	}
 }

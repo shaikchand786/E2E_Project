@@ -25,6 +25,5 @@ public class PlaceOrderTest extends BaseTest{
 		String finalMsg = cnfPage.confirmationMsg();
 		Assert.assertEquals(finalMsg, "Thank you for your order!!");
 		
-		
 	}
 }
