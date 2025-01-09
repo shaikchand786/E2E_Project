@@ -23,7 +23,8 @@ public class PlaceOrderTest extends BaseTest{
 		CheckOutViewPage viewPage = infoPage.checkoutInfoDetails();
 		ConfirmPage cnfPage = viewPage.checkoutPageDetails();
 		String finalMsg = cnfPage.confirmationMsg();
-		Assert.assertEquals(finalMsg, "Thank you for your order!!");
+		//Assertions to check actual & expected output! 
+		Assert.assertEquals(finalMsg, "Thank you for your order!");
 		
 	}
 }

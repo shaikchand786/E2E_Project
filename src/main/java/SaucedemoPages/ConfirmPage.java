@@ -28,7 +28,7 @@ public class ConfirmPage extends AbstractComp {
 	//Checkout Page
 	WaitForElementToAppear(confMsg);
 	String FinalConfMsg = confMsg.getText();
-	System.out.println(FinalConfMsg);
+//	System.out.println(FinalConfMsg);
 	
 	BackHome.click();
 	return FinalConfMsg;
