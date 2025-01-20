@@ -2,7 +2,6 @@ package Saucedemo_Tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import SaucedemoPages.CartPage;
 import SaucedemoPages.CheckOutInfoPage;
 import SaucedemoPages.CheckOutViewPage;
@@ -15,7 +14,6 @@ public class PlaceOrderTest extends BaseTest{
 	@Test
 	public void E2E_Application()
 	{
-
 		ProductsPage dashBoard = loginPage.LoginApplication();
 		
 		CartPage cartPage = dashBoard.addToCart();
